@@ -9,7 +9,7 @@ Amazon Aurora global databases span multiple AWS Regions, enabling low latency g
 ```yaml
 aurora-global-cluster.yaml:  
 ```
-Creating a Global Cluster and a primary Aurora DB cluster with 2 serverless instances in eu-west-2 in the Global Cluster.  
+Creating a Global Cluster and a primary Aurora PostgreSQL DB cluster with 2 serverless instances within the Global Cluster.  
 
 &nbsp;  
 
@@ -17,6 +17,6 @@ Creating a Global Cluster and a primary Aurora DB cluster with 2 serverless inst
 ```yaml
 aurora-global-cluster-secondary.yaml:  
 ``` 
-Adding a secondary region for Aurora DB with creating a secondary cluster in the Global Cluster in another region. Also creating a KMS key for accessing encrypted storage in primary cluster.    
+Adding a secondary region for Aurora DB with creating a secondary cluster within the Global Cluster in another region. Also creating a KMS key for accessing encrypted storage in primary cluster.    
 
 &nbsp;  
