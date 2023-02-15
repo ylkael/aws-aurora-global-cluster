@@ -7,7 +7,7 @@ Amazon Aurora global databases span multiple AWS Regions, enabling low latency g
 
 
 ```yaml
-aurora-global-cluster.yaml:  
+aurora-global-cluster-primary.yaml:  
 ```
 Creating a Global Cluster and a primary Aurora PostgreSQL DB cluster with 2 serverless instances within the Global Cluster.  
 
